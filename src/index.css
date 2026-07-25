@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ======================== */
+/* BASE STYLES              */
+/* ======================== */
+* {
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-padding-top: 72px;
+}
+
+body {
+  background-color: #0f0e11;
+  background-image: radial-gradient(
+      ellipse at 10% 20%,
+      rgba(124, 58, 237, 0.12) 0%,
+      transparent 40%
+    ),
+    radial-gradient(
+      ellipse at 85% 80%,
+      rgba(167, 139, 250, 0.08) 0%,
+      transparent 40%
+    );
+  font-family: "Space Grotesk", "Epilogue", sans-serif;
+  color: #f0eeff;
+  overflow-x: hidden;
+}
+
+/* ======================== */
+/* GLASS CARD               */
+/* ======================== */
+.glass-card {
+  background: rgba(22, 20, 28, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(167, 139, 250, 0.12);
+}
+
+.glass-card-lighter {
+  background: rgba(35, 32, 45, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(167, 139, 250, 0.15);
+}
+
+/* ======================== */
+/* SCROLLBAR                */
+/* ======================== */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f0e11;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3d3650;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a78bfa;
+}
+
+/* ======================== */
+/* SECTION HEADING          */
+/* ======================== */
+.section-title {
+  @apply text-4xl font-bold text-center mb-3;
+  font-family: "Space Grotesk", sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.section-divider {
+  @apply w-16 h-1 mx-auto mb-14 rounded-full;
+  background: linear-gradient(90deg, #7c3aed, #a78bfa, #c4b5fd);
+}
+
+/* ======================== */
+/* GRADIENT TEXT            */
+/* ======================== */
+.gradient-text {
+  background: linear-gradient(135deg, #a78bfa 0%, #c4b5fd 50%, #818cf8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ======================== */
+/* CERTIFICATE SCROLL       */
+/* ======================== */
+.scrolling-container {
+  overflow: hidden;
+  position: relative;
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    white 8%,
+    white 92%,
+    transparent
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    white 8%,
+    white 92%,
+    transparent
+  );
+}
+
+.scrolling-track {
+  display: flex;
+  width: fit-content;
+  animation: scrollLeft 35s linear infinite;
+}
+
+.scrolling-container:hover .scrolling-track {
+  animation-play-state: paused;
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* ======================== */
+/* NAV ACTIVE STATE         */
+/* ======================== */
+.nav-link-active {
+  color: #a78bfa !important;
+}
+
+/* ======================== */
+/* BUTTON GLOW              */
+/* ======================== */
+.btn-glow {
+  background: linear-gradient(135deg, #7c3aed, #a78bfa);
+  color: #ffffff !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-glow::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #6d28d9, #8b5cf6);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.btn-glow:hover::before {
+  opacity: 1;
+}
+
+.btn-glow:active {
+  transform: scale(0.98);
+}
+
+.btn-glow > * {
+  position: relative;
+  z-index: 1;
+}
+
+.btn-glow span,
+.btn-glow svg {
+  position: relative;
+  z-index: 1;
+}
+
+/* ======================== */
+/* TIMELINE                 */
+/* ======================== */
+.timeline-line {
+  position: absolute;
+  left: 7px;
+  top: 12px;
+  bottom: 0;
+  width: 1.5px;
+  background: linear-gradient(to bottom, #7c3aed, transparent);
+}
+
+.timeline-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #a78bfa, #7c3aed);
+  border: 2px solid #0f0e11;
+  box-shadow: 0 0 10px rgba(167, 139, 250, 0.5);
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+/* ======================== */
+/* GLOW BUTTON              */
+/* ======================== */
+.btn-glow {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #7c3aed, #a78bfa);
+  transition: all 0.3s ease;
+}
+
+.btn-glow::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #a78bfa, #c4b5fd);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.btn-glow:hover::before {
+  opacity: 1;
+}
+
+.btn-glow span {
+  position: relative;
+  z-index: 1;
+}
+
+/* ======================== */
+/* SCROLL PROGRESS BAR      */
+/* ======================== */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #7c3aed, #a78bfa, #c4b5fd);
+  z-index: 9999;
+  transition: width 0.1s ease;
+}
+
+/* ======================== */
+/* SKILL CARD               */
+/* ======================== */
+.skill-card {
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.skill-card:hover {
+  transform: translateY(-8px) scale(1.05);
+}
+
+/* ======================== */
+/* BLOB ANIMATION           */
+/* ======================== */
+@keyframes blob {
+  0%, 100% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
+  25% { border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%; }
+  50% { border-radius: 50% 60% 30% 60% / 30% 50% 70% 50%; }
+  75% { border-radius: 60% 40% 60% 30% / 60% 40% 50% 60%; }
+}
+
+.animate-blob {
+  animation: blob 8s ease-in-out infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
