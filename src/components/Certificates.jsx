@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { certificates } from "../data/portfolioData";
+import { getImageUrl } from "../utils/assets";
 
 // Duplicate for seamless infinite scroll
 const doubled = [...certificates, ...certificates];
@@ -37,7 +38,7 @@ export default function Certificates() {
               {/* Image */}
               <div className="relative overflow-hidden rounded-xl mb-4">
                 <img
-                  src={cert.image}
+                  src={getImageUrl(cert.image)}
                   alt={cert.title}
                   className="w-full h-44 object-cover group-hover:scale-105 transition-transform duration-500"
                 />

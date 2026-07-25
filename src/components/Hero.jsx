@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { personalInfo } from "../data/portfolioData";
+import { getImageUrl } from "../utils/assets";
 
 const roles = [
   "Odoo Developer",
@@ -215,7 +216,7 @@ export default function Hero() {
               {/* Image */}
               <div className="relative w-60 h-60 md:w-[340px] md:h-[340px] rounded-full overflow-hidden border-2 border-primary/20">
                 <img
-                  src={personalInfo.heroImage}
+                  src={getImageUrl(personalInfo.heroImage)}
                   alt={personalInfo.fullName}
                   className="w-full h-full object-cover"
                 />

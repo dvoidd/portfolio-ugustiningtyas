@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { personalInfo, education, experiences } from "../data/portfolioData";
+import { getImageUrl } from "../utils/assets";
 
 const containerVariants = {
   hidden: {},
@@ -71,7 +72,7 @@ export default function About() {
             <div className="relative group">
               <div className="absolute -inset-1 bg-gradient-to-br from-primary via-violet-500 to-indigo-500 rounded-2xl blur opacity-30 group-hover:opacity-50 transition-opacity duration-500" />
               <img
-                src={personalInfo.aboutImage}
+                src={getImageUrl(personalInfo.aboutImage)}
                 alt="About Ugustiningtyas"
                 className="relative w-full rounded-2xl object-cover shadow-2xl"
               />

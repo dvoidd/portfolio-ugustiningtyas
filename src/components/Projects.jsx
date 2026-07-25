@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
 import { projects } from "../data/portfolioData";
+import { getImageUrl } from "../utils/assets";
 
 const tagColors = {
   Flutter: "bg-cyan-500/15 text-cyan-300",
@@ -53,7 +54,7 @@ function ProjectCard({ project }) {
       {/* Image */}
       <div className="relative overflow-hidden h-48">
         <img
-          src={project.image}
+          src={getImageUrl(project.image)}
           alt={project.title}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
         />
