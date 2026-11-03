@@ -45,6 +45,11 @@ export const education = [
 
 export const experiences = [
   {
+    period: "Sep 2026 – Dec 2026",
+    company: "PT Gunung Samudera Internasional",
+    role: "Odoo Developer",
+  },
+  {
     period: "Mar 2026 – Sep 2026",
     company: "PT Gunung Samudera Internasional",
     role: "Jr. Odoo Developer (Apprenticeship)",
@@ -63,11 +68,6 @@ export const experiences = [
     period: "Aug – Dec 2023",
     company: "Universitas Negeri Makassar",
     role: "Lecturer Assistant",
-  },
-  {
-    period: "Apr – Jun 2021",
-    company: "Bank BRI KC Panakkukang",
-    role: "Internship",
   },
 ];
 
