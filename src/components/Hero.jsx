@@ -5,9 +5,9 @@ import { getImageUrl } from "../utils/assets";
 
 const roles = [
   "Odoo Developer",
-  "Flutter Enthusiast",
-  "IoT Engineer",
-  "Tech Explorer",
+  "ERP Specialist",
+  "Python & Backend Dev",
+  "Business Solutions Architect",
 ];
 
 function TypewriterText({ texts }) {

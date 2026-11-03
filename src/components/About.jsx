@@ -90,19 +90,18 @@ export default function About() {
               <span className="text-primary font-semibold">
                 {personalInfo.fullName}
               </span>
-              , an undergraduate Computer Engineering student at Universitas
+              , a Computer Engineering graduate from Universitas
               Negeri Makassar. I&apos;m enthusiastic and highly motivated in the
-              field of technology. I have broad curiosity and enjoy exploring new
-              things.
+              field of technology, specializing in enterprise systems and digital transformation.
             </p>
             <p className="text-white/60 text-base leading-relaxed mb-8">
               Currently, I&apos;m focusing on{" "}
-              <span className="text-white font-medium">Flutter Development</span>{" "}
-              and the{" "}
+              <span className="text-white font-medium">Odoo ERP Development</span>{" "}
+              and{" "}
               <span className="text-white font-medium">
-                Internet of Things (IoT)
+                Python Backend Engineering
               </span>
-              , building cross-platform apps and connected hardware systems.
+              , customizing scalable business modules, automating enterprise workflows, and developing integrated digital solutions.
             </p>
 
             {/* Quick Facts */}
@@ -110,8 +109,9 @@ export default function About() {
               {[
                 { emoji: "🎓", text: "Computer Engineering" },
                 { emoji: "📍", text: "Makassar, Indonesia" },
-                { emoji: "📱", text: "Flutter Dev" },
-                { emoji: "🔌", text: "IoT Engineer" },
+                { emoji: "💼", text: "Odoo Developer" },
+                { emoji: "⚙️", text: "ERP Specialist" },
+                { emoji: "🐍", text: "Python & PostgreSQL" },
               ].map(({ emoji, text }) => (
                 <span
                   key={text}
