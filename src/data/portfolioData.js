@@ -7,7 +7,7 @@ export const personalInfo = {
   name: "Ugustiningtyas",
   fullName: "Ugustiningtyas Supriatno",
   title: "Odoo Developer",
-  subtitle: "Odoo Developer · ERP Specialist · Python Engineer",
+  subtitle: "Odoo Developer · Flutter Enthusiast · IoT Engineer",
   bio: `I'm a Computer Engineering graduate from Universitas Negeri Makassar with a primary specialization in Odoo ERP Development, Python Backend Engineering, and Enterprise Business Solutions.`,
   bio2: `Experienced in developing and customizing Odoo ERP modules (ORM, XML Views, QWeb reports, Workflows, and API integrations), building full-stack web applications, and delivering digital transformation systems. Currently working as an Odoo Developer at PT Gunung Samudera Internasional. Open to opportunities in Odoo & ERP Development.`,
   email: "ugustining.tyas237@gmail.com",
