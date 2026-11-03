@@ -4,6 +4,11 @@ import { projects } from "../data/portfolioData";
 import { getImageUrl } from "../utils/assets";
 
 const tagColors = {
+  Odoo: "bg-purple-500/15 text-purple-300",
+  Python: "bg-amber-500/15 text-amber-300",
+  PostgreSQL: "bg-sky-600/15 text-sky-300",
+  ERP: "bg-violet-500/15 text-violet-300",
+  XML: "bg-rose-500/15 text-rose-300",
   Flutter: "bg-cyan-500/15 text-cyan-300",
   "Gemini AI": "bg-blue-500/15 text-blue-300",
   API: "bg-violet-500/15 text-violet-300",
@@ -113,7 +118,7 @@ export default function Projects() {
           <h2 className="section-title text-white-soft">My Projects</h2>
           <div className="section-divider" />
           <p className="text-white/40 text-sm max-w-md mx-auto">
-            A selection of projects I&apos;ve built — from mobile apps to IoT systems
+            A selection of projects I&apos;ve built — from enterprise Odoo ERP solutions to mobile apps and IoT systems
           </p>
         </motion.div>
 

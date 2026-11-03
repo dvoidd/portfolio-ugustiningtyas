@@ -102,7 +102,7 @@ export const skills = [
   },
   {
     name: "PHP",
-    svg: `<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><defs><radialGradient id="phpGrad" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.5" stop-color="#4c6b96"/><stop offset="1" stop-color="#231f20"/></radialGradient></defs><ellipse cx="16" cy="16" rx="14" ry="7.365" fill="url(#phpGrad)"/><ellipse cx="16" cy="16" rx="13.453" ry="6.818" fill="#6280b6"/><text x="6" y="20" font-size="10" font-weight="bold" fill="white" font-family="sans-serif">PHP</text></svg>`,
+    svg: `<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><defs><radialGradient id="phpGrad" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#ffffff"/><stop offset="0.5" stop-color="#4c6b96"/><stop offset="1" stop-color="#231f20"/></radialGradient></defs><ellipse cx="16" cy="16" rx="14" ry="7.365" fill="url(#phpGrad)"/><ellipse cx="16" cy="16" rx="13.453" ry="6.818" fill="#6280b6"/><text x="6" y="20" font-size="10" font-weight="bold" fill="white" font-family="sans-serif">PHP</text></svg>`,
   },
   {
     name: "Java",
@@ -157,6 +157,30 @@ export const certificates = [
 ];
 
 export const projects = [
+  {
+    title: "Activity Report",
+    description:
+      "Employee hourly activity reporting and tracking system with Odoo ERP, featuring mobile-responsive task inputs, multi-tier manager approval workflows, and centralized monitoring dashboards.",
+    image: "/assets/img/activity-report.png",
+    tags: ["Odoo", "Python", "PostgreSQL", "ERP"],
+    category: "ERP",
+  },
+  {
+    title: "HSEQ Inspection",
+    description:
+      "A digital inspection platform for Health, Safety, Environment, and Quality (HSEQ) compliance, integrating mobile forms for field audits and an Odoo ERP backend for real-time tracking.",
+    image: "/assets/img/hseq-inspection.png",
+    tags: ["Odoo", "Python", "PostgreSQL", "ERP"],
+    category: "ERP",
+  },
+  {
+    title: "Meeting Room Reservation",
+    description:
+      "A comprehensive meeting room reservation and availability system integrated with Odoo ERP and mobile view, featuring real-time synchronization, clash-free scheduling, live room capacity tracking, and multi-tier approval workflows.",
+    image: "/assets/img/room-meeting.jpg",
+    tags: ["Odoo", "Python", "PostgreSQL", "ERP"],
+    category: "ERP",
+  },
   {
     title: "Desa Manimbahoi",
     description:
