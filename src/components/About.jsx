@@ -110,7 +110,6 @@ export default function About() {
                 { emoji: "🎓", text: "Computer Engineering" },
                 { emoji: "📍", text: "Makassar, Indonesia" },
                 { emoji: "💼", text: "Odoo Developer" },
-                { emoji: "⚙️", text: "ERP Specialist" },
                 { emoji: "🐍", text: "Python & PostgreSQL" },
               ].map(({ emoji, text }) => (
                 <span

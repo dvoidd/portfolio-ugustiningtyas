@@ -182,6 +182,14 @@ export const projects = [
     category: "ERP",
   },
   {
+    title: "Vendor Register & Management",
+    description:
+      "An automated partner onboarding and vendor qualification system in Odoo ERP, featuring digital vendor portal registration, compliance document capture, qualification workflows, and approval history tracking.",
+    image: "/assets/img/Vendor.jpg",
+    tags: ["Odoo", "Python", "PostgreSQL", "ERP"],
+    category: "ERP",
+  },
+  {
     title: "Desa Manimbahoi",
     description:
       "Website of Desa Manimbahoi featuring village profile, tourism, news, local UMKM directory, and a digital public letter administration service.",
