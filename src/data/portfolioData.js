@@ -190,6 +190,14 @@ export const projects = [
     category: "ERP",
   },
   {
+    title: "Material Requisition (MR)",
+    description:
+      "An internal material requisition and workflow tracking system in Odoo ERP integrated with Accurate Online, featuring automated Purchase Request (PR) generation, detailed resource planning, and multi-tier approval tracking.",
+    image: "/assets/img/MR.jpg",
+    tags: ["Odoo", "Python", "PostgreSQL", "ERP"],
+    category: "ERP",
+  },
+  {
     title: "Desa Manimbahoi",
     description:
       "Website of Desa Manimbahoi featuring village profile, tourism, news, local UMKM directory, and a digital public letter administration service.",
