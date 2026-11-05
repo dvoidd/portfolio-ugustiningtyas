@@ -190,7 +190,7 @@ export const projects = [
     category: "ERP",
   },
   {
-    title: "Material Requisition (MR)",
+    title: "Material Requition",
     description:
       "An internal material requisition and workflow tracking system in Odoo ERP integrated with Accurate Online, featuring automated Purchase Request (PR) generation, detailed resource planning, and multi-tier approval tracking.",
     image: "/assets/img/MR.jpg",
