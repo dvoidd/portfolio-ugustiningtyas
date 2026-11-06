@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
+Allow: /favicon.ico
+Allow: /*.png
 
 Sitemap: https://dvoidd.my.id/sitemap.xml
-
