@@ -218,6 +218,11 @@ export default function Hero() {
                 <img
                   src={getImageUrl(personalInfo.heroImage)}
                   alt={personalInfo.fullName}
+                  width="340"
+                  height="340"
+                  loading="eager"
+                  fetchPriority="high"
+                  decoding="async"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/10 via-transparent to-transparent" />

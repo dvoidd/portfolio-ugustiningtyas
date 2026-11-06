@@ -36,10 +36,12 @@ export default function Certificates() {
               className="flex-shrink-0 w-[300px] glass-card rounded-2xl p-5 mx-3 group hover:-translate-y-2 transition-transform duration-300"
             >
               {/* Image */}
-              <div className="relative overflow-hidden rounded-xl mb-4">
+              <div className="relative overflow-hidden rounded-xl mb-4 bg-white/5">
                 <img
                   src={getImageUrl(cert.image)}
                   alt={cert.title}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-44 object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

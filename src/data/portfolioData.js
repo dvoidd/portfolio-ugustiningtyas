@@ -15,8 +15,8 @@ export const personalInfo = {
   location: "Makassar, Indonesia",
   resumeUrl:
     "https://drive.google.com/file/d/18lDzPCoZ3q0zJ15zapHFr0MaJiYYxEWG/view?usp=drive_link",
-  heroImage: "/assets/img/hero.png",
-  aboutImage: "/assets/img/about_3d.png",
+  heroImage: "/assets/img/hero.webp",
+  aboutImage: "/assets/img/about_3d.webp",
   social: {
     github: "https://github.com/dvoidd/",
     linkedin:
@@ -122,37 +122,37 @@ export const certificates = [
   {
     title: "How To Become a Mobile Developer",
     issuer: "Talenthub Indonesia",
-    image: "/assets/img/flutter.jpg",
+    image: "/assets/img/flutter.webp",
   },
   {
     title: "Junior Web Developer",
     issuer: "Digital Talent Scholarship",
-    image: "/assets/img/jwd.jpg",
+    image: "/assets/img/jwd.webp",
   },
   {
     title: "Belajar Membuat Aplikasi Flutter",
     issuer: "Dicoding",
-    image: "/assets/img/flutter_dico.jpg",
+    image: "/assets/img/flutter_dico.webp",
   },
   {
     title: "Front-end Web untuk Pemula",
     issuer: "Dicoding",
-    image: "/assets/img/web_dico.png",
+    image: "/assets/img/web_dico.webp",
   },
   {
     title: "Dasar Pemrograman JavaScript",
     issuer: "Dicoding",
-    image: "/assets/img/js.png",
+    image: "/assets/img/js.webp",
   },
   {
     title: "Internet of Things BIZ",
     issuer: "CertNexus",
-    image: "/assets/img/certnexus.jpg",
+    image: "/assets/img/certnexus.webp",
   },
   {
     title: "Top 8 Best Project IoT",
     issuer: "Indobot Academy",
-    image: "/assets/img/top8.jpg",
+    image: "/assets/img/top8.webp",
   },
 ];
 
@@ -161,7 +161,7 @@ export const projects = [
     title: "Activity Report",
     description:
       "Employee hourly activity reporting and tracking system with Odoo ERP, featuring mobile-responsive task inputs, multi-tier manager approval workflows, and centralized monitoring dashboards.",
-    image: "/assets/img/activity-report.png",
+    image: "/assets/img/activity-report.webp",
     tags: ["Odoo", "Python", "PostgreSQL", "ERP"],
     category: "ERP",
   },
@@ -169,7 +169,7 @@ export const projects = [
     title: "HSEQ Inspection",
     description:
       "A digital inspection platform for Health, Safety, Environment, and Quality (HSEQ) compliance, integrating mobile forms for field audits and an Odoo ERP backend for real-time tracking.",
-    image: "/assets/img/hseq-inspection.png",
+    image: "/assets/img/hseq-inspection.webp",
     tags: ["Odoo", "Python", "PostgreSQL", "ERP"],
     category: "ERP",
   },
@@ -177,7 +177,7 @@ export const projects = [
     title: "Meeting Room Reservation",
     description:
       "A comprehensive meeting room reservation and availability system integrated with Odoo ERP and mobile view, featuring real-time synchronization, clash-free scheduling, live room capacity tracking, and multi-tier approval workflows.",
-    image: "/assets/img/room-meeting.jpg",
+    image: "/assets/img/room-meeting.webp",
     tags: ["Odoo", "Python", "PostgreSQL", "ERP"],
     category: "ERP",
   },
@@ -185,7 +185,7 @@ export const projects = [
     title: "Vendor Register & Management",
     description:
       "An automated partner onboarding and vendor qualification system in Odoo ERP, featuring digital vendor portal registration, compliance document capture, qualification workflows, and approval history tracking.",
-    image: "/assets/img/Vendor.jpg",
+    image: "/assets/img/Vendor.webp",
     tags: ["Odoo", "Python", "PostgreSQL", "ERP"],
     category: "ERP",
   },
@@ -193,7 +193,7 @@ export const projects = [
     title: "Material Requition",
     description:
       "An internal material requisition and workflow tracking system in Odoo ERP integrated with Accurate Online, featuring automated Purchase Request (PR) generation, detailed resource planning, and multi-tier approval tracking.",
-    image: "/assets/img/MR.jpg",
+    image: "/assets/img/MR.webp",
     tags: ["Odoo", "Python", "PostgreSQL", "ERP"],
     category: "ERP",
   },
@@ -201,7 +201,7 @@ export const projects = [
     title: "Desa Manimbahoi",
     description:
       "Website of Desa Manimbahoi featuring village profile, tourism, news, local UMKM directory, and a digital public letter administration service.",
-    image: "/assets/img/manimbahoi.png",
+    image: "/assets/img/manimbahoi.webp",
     tags: ["Laravel", "Tailwind CSS", "MySQL"],
     category: "Web",
   },
@@ -209,7 +209,7 @@ export const projects = [
     title: "Gemini API Job Resume Generator",
     description:
       "Automatic job cover letter generator, easily and professionally. With the help of Gemini's API.",
-    image: "/assets/img/gemini-app.png",
+    image: "/assets/img/gemini-app.webp",
     tags: ["Flutter", "Gemini AI", "API"],
     category: "Web",
   },
@@ -217,7 +217,7 @@ export const projects = [
     title: "Anuflix",
     description:
       "Movie Apps with TMDb API, developed with Flutter for a seamless cross-platform experience.",
-    image: "/assets/img/Anuflix.png",
+    image: "/assets/img/Anuflix.webp",
     tags: ["Flutter", "TMDb API", "Dart"],
     category: "Mobile",
   },
@@ -225,7 +225,7 @@ export const projects = [
     title: "Anu Coffee",
     description:
       "An online coffee ordering app built with Flutter and Firebase for real-time data synchronization.",
-    image: "/assets/img/anucoffe.png",
+    image: "/assets/img/anucoffe.webp",
     tags: ["Flutter", "Firebase", "Dart"],
     category: "Mobile",
   },
@@ -233,7 +233,7 @@ export const projects = [
     title: "Apotek Sehat",
     description:
       "A Java GUI desktop app for pharmacy data management, including drugs, categories, and transactions.",
-    image: "/assets/img/apoteksehat.png",
+    image: "/assets/img/apoteksehat.webp",
     tags: ["Java", "Swing GUI", "MySQL"],
     category: "Desktop",
   },
@@ -241,7 +241,7 @@ export const projects = [
     title: "JemuranUNO",
     description:
       "An IoT-based Automatic Clothesline that retracts when it rains, controlled via the Blynk App.",
-    image: "/assets/img/jemuranuno.png",
+    image: "/assets/img/jemuranuno.webp",
     tags: ["Arduino", "IoT", "Blynk"],
     category: "IoT",
   },

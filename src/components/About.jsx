@@ -74,7 +74,11 @@ export default function About() {
               <img
                 src={getImageUrl(personalInfo.aboutImage)}
                 alt="About Ugustiningtyas"
-                className="relative w-full rounded-2xl object-cover shadow-2xl"
+                width="280"
+                height="280"
+                loading="lazy"
+                decoding="async"
+                className="relative w-full rounded-2xl object-cover shadow-2xl bg-white/5"
               />
             </div>
           </motion.div>

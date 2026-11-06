@@ -57,10 +57,12 @@ function ProjectCard({ project }) {
       }}
     >
       {/* Image */}
-      <div className="relative overflow-hidden h-48">
+      <div className="relative overflow-hidden h-48 bg-white/5">
         <img
           src={getImageUrl(project.image)}
           alt={project.title}
+          loading="lazy"
+          decoding="async"
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
         />
         {/* Overlay */}
